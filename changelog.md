@@ -1,5 +1,11 @@
 ## changelog
 
+Made by Harold Lee & Tommy Tran
+Style convention : Allman notation 
+
+Addition newest first 
+
+
 This project is the starting repository for COMP4711 (fall 2016) lab #2.
 
 This starter builds on [CodeIgniter3.1-starter2](https://github.com/jedi-academy/CodeIgniter3.1-starter2),

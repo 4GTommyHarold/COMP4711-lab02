@@ -4,18 +4,16 @@ Made by Harold Lee & Tommy Tran
 Style convention : Allman notation 
 
 Addition newest first 
-
-
 This project is the starting repository for COMP4711 (fall 2016) lab #2.
 
-This starter builds on [CodeIgniter3.1-starter2](https://github.com/jedi-academy/CodeIgniter3.1-starter2),
-adding a Quotes model and tailoring the homepage view to suit this.
 
-**controllers/Welcome.php** has been modified to provide a table of quotations,
-and the view template has been modified to use Bootstrap.
+Version 2.0.0
+- added random quotes 
 
-The **application/config/autoload.php** configuration has been modified
-to preload the template parser library, the url helper, and the Quotes model.
+Version 1.0.1
+- added picture and quotes
+- fixed controller/Welcome
 
-Configure your web server or virtual host so that your project's
-document root maps to this **public** folder inside your project.
+Version 1.0.0
+- Initialized repository 
+

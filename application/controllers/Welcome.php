@@ -36,15 +36,7 @@ class Welcome extends Application
 		$randId = rand(1,7);
 		// build the list of authors, to pass on to our view
 		$source = $this->quotes->all();
-		$authors = array ();
-		foreach ($source as $record)
-		{
-			if ($record['id'] == $randId){
-				$authors[] = array ('who' => $record['who'], 'mug' => $record['mug'], 'href' => $record['where'], 'what' => $record['what']);
-				break;
-			}
-			
-		}
+		$authors[] = $source[$randId];		
 		$this->data['authors'] = $authors;
 		$this->render();
 	}
